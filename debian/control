@@ -1,0 +1,13 @@
+Source: qtcreator-template-dtk
+Section: misc
+Priority: optional
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+
+Package: qtcreator-template-dtk
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description: QtCreator template for dtk
+ Support for creating a dtk gui project in qtcreator by default.
